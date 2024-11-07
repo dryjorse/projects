@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+  body {
+    @apply font-nunito text-black;
+  }
+  h2 {
+    @apply text-[48px] font-bold leading-[18px];
+  }
+  .trans-def {
+    transition: 0.15s ease-in all;
+  }
+  .clickable {
+    @apply trans-def duration-75 hover:brightness-75 active:brightness-90 disabled:grayscale disabled:pointer-events-none;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-purple rounded-[8px];
+  }
+  ::-webkit-scrollbar {
+    @apply w-[10px];
+  }
+  .scroll-small::-webkit-scrollbar {
+    @apply w-[5px] h-[5px];
+  }
+}
+@layer components {
+  .container {
+    @apply mx-auto max-w-[1420px];
+  }
+  .btn {
+    @apply rounded-[7px] py-[22px] px-60 bg-purple bg-right bg-no-repeat [background-image:_url(./assets/images/icons/btn-flower.svg)] font-bold leading-[18px] text-center text-white clickable;
+  }
+}

@@ -1,0 +1,26 @@
+.player {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.load { 
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.load__player {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    transition: all .1s linear;
+}
+.time {
+    font-weight: 600;
+}
+.text span {
+    display: block;
+}

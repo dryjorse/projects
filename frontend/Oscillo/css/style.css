@@ -1,0 +1,138 @@
+/* --------------------MENU---------------- */
+.menu {
+    width: 100%;
+    position: relative;
+}
+.menu__header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: url(../img/menu/menu_oscillo.png);
+    padding: 70px 0 45px;
+    z-index: 2;
+}
+.menu__nav {
+    margin: 0 auto;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu__ul {
+    list-style-type: none;
+}
+.menu__li {
+    display: inline;
+}
+.menu__li:not(:last-child) {
+    margin-right: 127px;
+}
+.menu__a {
+    color: #0C73AE;
+    text-decoration: none;
+}
+/* --------------------HOME---------------- */
+.home {
+    position: relative;
+    background: url(../img/home/backgr_oscillo.png);
+    height: 100vh;
+    padding: 183px 120px 108px 250px;
+}
+.home__vector1 {
+    top: 25px;
+    left: 0;
+}
+.home__vector2 {
+    top: 440px;
+    z-index: 1;
+    right: -80px;
+}
+.home__vector3 {
+    z-index: 2;
+    top: 668px;
+    right: 0;
+}
+.home-body1__block1 {
+    padding-top: 73px;
+}
+.home__container1 {
+    display: flex;
+}
+.home__h2 {
+    color: #FFE02F;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.home__p {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: white;
+}
+.home__p1 {
+    margin: 30px 0;
+}
+.home-body1__block2{
+    position: relative;
+}
+.gomeostress {
+    width: 388px;
+    height: 467px;
+    left: 148px;
+    z-index: 2;
+}
+.occilokcillum {
+    width: 699px;
+    height: 288px;
+    top: 286px;
+    left: -150px;
+    z-index: 3;
+}
+.home__body2 {
+    background: url(../img/home/frame_oscillo.png);
+    width: 100%;
+    position: absolute;
+    top: 750px;
+    left: 0;
+    z-index: 3;
+    padding: 200px 0 120px;
+}
+.home__h2-2 {
+    text-align: center;
+    color: #164B8E;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.home-body2__ul {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    color: #164B8E;
+    font-size: 24px;
+    font-weight: 500;
+    list-style-type: none;
+}
+.home-body2__list {
+    position: relative;
+}
+.home-body2__list::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    left: -35px;
+    top: 5px;
+    background-color: #164B8E;
+    width: 27px;
+    height: 27px;
+}
+.home-body2__list1 {
+    margin-right: 145px;
+}
+.home-body2__list2 {
+
+}

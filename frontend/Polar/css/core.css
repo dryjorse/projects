@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: 14px "Roboto", "Freedoka", sans-serif;
+    font-weight: normal;
+}
+.container {
+    width: 1169px;
+    margin: 0 auto;
+}
+.btn {
+    display: block;
+    background-color: #D23166;
+    text-decoration: none;
+    color: white;
+    width: 165px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}

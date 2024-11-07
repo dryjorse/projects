@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Bold[1]/fonts/Roboto-Bold[1].eot');
+	src: local('☺'), url('Roboto-Bold[1]/fonts/Roboto-Bold[1].woff') format('woff'), url('Roboto-Bold[1]/fonts/Roboto-Bold[1].ttf') format('truetype'), url('Roboto-Bold[1]/fonts/Roboto-Bold[1].svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Regular[1]/fonts/Roboto-Regular[1].eot');
+	src: local('☺'), url('Roboto-Regular[1]/fonts/Roboto-Regular[1].woff') format('woff'), url('Roboto-Regular[1]/fonts/Roboto-Regular[1].ttf') format('truetype'), url('Roboto-Regular[1]/fonts/Roboto-Regular[1].svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Freedoka';
+	src: url('FredokaOne-Regular[1]/fonts/FredokaOne-Regular[1].eot');
+	src: local('☺'), url('FredokaOne-Regular[1]/fonts/FredokaOne-Regular[1].woff') format('woff'), url('FredokaOne-Regular[1]/fonts/FredokaOne-Regular[1].ttf') format('truetype'), url('FredokaOne-Regular[1]/fonts/FredokaOne-Regular[1].svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Medium[1]/fonts/Roboto-Medium[1].eot');
+	src: local('☺'), url('Roboto-Medium[1]/fonts/Roboto-Medium[1].woff') format('woff'), url('Roboto-Medium[1]/fonts/Roboto-Medium[1].ttf') format('truetype'), url('Roboto-Medium[1]/fonts/Roboto-Medium[1].svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}

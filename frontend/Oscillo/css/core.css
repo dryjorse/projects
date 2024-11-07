@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat;
+}
+.wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+.container {
+    width: 1525px;
+    margin: 0 auto;
+}
+.vector {
+    position: absolute;
+}
